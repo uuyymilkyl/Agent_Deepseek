@@ -1,0 +1,14 @@
+<launch>
+    <arg name="rvizconfig" default="$(find myarm_m)/config/mycontroller.rviz" />
+    <!-- <arg name="rvizconfig" default="$(find myarm_m)/config/new_mc_embodied.rviz" /> -->
+    <arg name="ns5" default="mycontroller_s570" />
+
+
+    <group ns="$(arg ns5)">
+        <param name="robot_description" command="$(find xacro)/xacro --inorder $(find mycobot_description)/urdf/mycontroller_s570/mycontroller.urdf ns:=$(arg ns5)" />
+        <!-- 设置map和机器人基座的坐标关系 -->
+        <node pkg="tf2_ros" type="static_transform_publisher" name="static_transform_publisher1" args="0 0 0 0 0 0 /map /$(arg ns5)/base" />        
+    </group>
+	<!-- Show in Rviz ，显示在Rviz-->
+	<node name="rviz" pkg="rviz" type="rviz" />
+</launch>
