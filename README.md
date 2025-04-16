@@ -44,7 +44,7 @@ python main.py
 
 ## ✨ 项目效果 | PROJECT RESULT
 
-![Demo](./video.gif)
+<iframe src="https://vimeo.com/1075909428/e1ed8dbc55?share=copy" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
 
 ## 📄 开源协议 | LICENSE
 本项目采用 MIT 协议开源。
