@@ -28,17 +28,18 @@ pip install -r requirements.txt
 
 一共有两种方法  1.从头开始构建  2.直接使用本项目
 从头开始构建的方法请参考Hackster文章：
+https://www.hackster.io/Elephant-Robotics-Official/high-speed-motion-capture-controller-to-remote-control-robot-35113d
 
 下面将介绍如何直接使用本项目：
 1. 克隆本仓库 / Clone this repository:
 ```bash
-git clone https://github.com/yourname/yourproject.git
-cd yourproject
+git clone https://github.com/uuyymilkyl/myController_UR-Dual_ROS.git
+cd 
 ```
 
-2. 运行主程序 / Run the main program:
+2. 构建 / Run the main program:
 ```bash
-python main.py
+catkin_make 
 ```
 
 
