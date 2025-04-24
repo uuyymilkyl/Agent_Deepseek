@@ -1,11 +1,12 @@
 
-# 项目名称 | PROJECT NAME
+# 项目名称 | PROJECT NAME\
+
+myController_UR_Dual_ROS
 
 https://www.hackster.io/Elephant-Robotics-Official/high-speed-motion-capture-controller-to-remote-control-robot-35113d
 
 ## 📘 项目简介 | PROJECT INTRODUCTION
 
-* https://www.hackster.io/Elephant-Robotics-Official/high-speed-motion-capture-controller-to-remote-control-robot-35113d
 
 本项目旨在使用 ER 公司的外骨骼产品 在ROS平台上对 UR FR 公司的写作机械臂进行仿真远程操控
 
